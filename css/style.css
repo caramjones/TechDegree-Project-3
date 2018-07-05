@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  background-color: #2d3944;
+
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+h2 {
+  font-size: 14px;
+  text-align: center;
+  color: #2d3944;
+  margin-top: 30px;
+}
+
+.intro {
+  font-size: 14px;
+  text-align: center;
+  color: #a0a6ab;
+  margin: 18px 23px 40px 23px;
+}
+
+legend {
+  color: #2d3944;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.welcome {
+  border-bottom: double #2d3944;
+  margin: 0 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+textarea {
+  background-color: #eff0f1;
+}
+
+label {
+  color: #566879;
+}
+
+.faded {
+  color: #a0a6ab;
+  font-style: italic;
+  text-align: end;
+  font-size: 9px;
+}
+
+.size {
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  color: #a0a6ab;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 8px;
+}
