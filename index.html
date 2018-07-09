@@ -16,6 +16,8 @@
       <div class="welcome">
         <h2>Signup for our newsletter</h2>
         <p class="intro">Get the latest news on how your code is doing right in your inbox</p>
+        <hr class="line-1">
+        <hr class="line-2">
       </div>
       <form action="/" method="post">
         <!-- web address of a program that proc info. Method is http method the browswer uses to submit form -->
@@ -37,7 +39,7 @@
           </div>
 
           <div class="container">
-          <label for="address">Address</label>
+          <label for="address">Street Address</label>
           <input type="text" id="address" name="user_address">
           </div>
 
@@ -113,19 +115,33 @@
         <fieldset>
           <legend>Newsletter</legend>
           <label> Select the newsletters you would like to receive</label>
+
+          <div class="container">
           <input type="checkbox" id="html" value="interest_html" name="subscribe_interest">
           <label for="html">HTML News</label><br>
+          </div>
+
+          <div class="container">
           <input type="checkbox" id="css" value="interest_css" name="subscribe_interest">
           <label for="css">CSS News</label><br>
+          </div>
+
+          <div class="container">
           <input type="checkbox" id="java" value="interest_java" name="subscribe_interest">
           <label for="java">Javascript News</label>
+          </div>
 
           <label>Newsletter format</label>
+
+          <div class="container">
           <input type="radio" id="html_format" value="html_format" name="format">
           <label>HTML</label>
+          </div>
+
+          <div class="container">
           <input type="radio" id="plain_format" value="plain_format" name="format">
           <label>Plain Text</label>
-
+          </div>
 
           <label for="topics">Other topics you'd like to hear about</label>
           <textarea id="topics" name="user_topics"></textarea>
